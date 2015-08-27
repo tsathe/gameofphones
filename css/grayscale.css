@@ -294,6 +294,26 @@ a:focus {
     }
 }
 
+.btn {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border-radius: 0;
+  padding: 15px 25px;
+}
+.btn-lg {
+  font-size: 16px;
+  padding: 25px 35px;
+}
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #0085a1;
+  border: 1px solid #0085a1;
+  color: white;
+}
+
 /*
 .btn {
     border-radius: 0;
@@ -311,7 +331,8 @@ a:focus {
     background-color: transparent;
 } */
 
-.btn-social {
+
+/* .btn-social {
     display: inline-block;
     width: 75px;
     height: 75px;
@@ -320,7 +341,7 @@ a:focus {
     text-align: center;
     vertical-align: middle;
     font-size: 20px;
-    /* line-height: 45px; */
+    line-height: 45px;
 }
 
 .btn:focus,
@@ -366,7 +387,7 @@ a:focus {
     border: solid 2px #fff;
     color: #000;
     background: #fff;
-}
+} */
 
 /*.btn-default:focus {
     border: 1px solid #42dca3;
