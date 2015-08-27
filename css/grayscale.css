@@ -320,7 +320,7 @@ a:focus {
     text-align: center;
     vertical-align: middle;
     font-size: 20px;
-    line-height: 45px;
+    /* line-height: 45px; */
 }
 
 .btn:focus,
