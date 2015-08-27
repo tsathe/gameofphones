@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>Enter the Arena - SYS2016</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,6 +29,12 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link rel="stylesheet" href="../compiled/flipclock.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="../compiled/flipclock.js"></script>
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -41,7 +47,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
+                    <i class="fa fa-play-circle"></i>  <span class="light">YSM</span> SYS16
                 </a>
             </div>
 
@@ -74,8 +80,29 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Grayscale</h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.<br>Created by Start Bootstrap.</p>
+                        <h1 class="brand-heading">104STRONG</h1>
+                        <p class="intro-text">Enter The Arena<br>02.20.2016</p>
+                        <script type="text/javascript">
+                          var clock;
+
+                          $(document).ready(function() {
+
+                            // Grab the current date
+                            var currentDate = new Date();
+
+                            // Set some date in the future. In this case, it's always Jan 1
+                            var futureDate  = new Date(currentDate.getFullYear() + 1, 2, 2);
+
+                            // Calculate the difference in seconds between the future and current date
+                            var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+                            // Instantiate a coutdown FlipClock
+                            clock = $('.clock').FlipClock(diff, {
+                              clockFace: 'DailyCounter',
+                              countdown: true
+                            });
+                          });
+                        </script>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
