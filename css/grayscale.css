@@ -375,9 +375,9 @@ a:focus {
     background-color: #42dca3;
 } */
 
-ul.banner-social-buttons {
+/* ul.banner-social-buttons {
     margin-top: 0;
-}
+} */
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
