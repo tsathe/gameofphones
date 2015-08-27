@@ -84,27 +84,16 @@
                         <p class="intro-text">Enter The Arena<br>02.20.2016</p>
                         <div class="clock" style="margin:2em;">
                         <script type="text/javascript">
-                          var clock;
 
-                          $(document).ready(function() {
+                            var current = new Date();
+                            var eventDate = new Date("Feb 20, 2016");
+                            var diff = (eventDate.getTime() / 1000) - (current.getTime() / 1000);
 
-                            // Grab the current date
-                            var currentDate = new Date();
-
-                            // Set some date in the future. In this case, it's always Jan 1
-                            var futureDate  = new Date(currentDate.getFullYear() + 1, 2, 2);
-
-                            // Calculate the difference in seconds between the future and current date
-                            var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-
-                            // Instantiate a coutdown FlipClock
-                            clock = $('.clock').FlipClock(diff, {
-                              clockFace: 'DailyCounter',
-                              countdown: true
-                            });
-                          });
+                            var clock = $('.clock').FlipClock(diff, {
+                                clockFace: 'DailyCounter',
+                                countdown: true
+                             });
                         </script></div>
-                          <p class="intro-text">Hello World<br>02.20.2016</p>
                         <!--<a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>-->
@@ -115,7 +104,7 @@
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container content-section text-center">
+<!--    <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Grayscale</h2>
@@ -127,7 +116,7 @@
     </section>
 
     <!-- Download Section -->
-    <section id="download" class="content-section text-center">
+<!--    <section id="download" class="content-section text-center">
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
@@ -140,7 +129,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+<!--    <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Start Bootstrap</h2>
@@ -163,10 +152,10 @@
     </section>
 
     <!-- Map Section -->
-    <div id="map"></div>
+<!--    <div id="map"></div>
 
     <!-- Footer -->
-    <footer>
+<!--    <footer>
         <div class="container text-center">
             <p>Copyright &copy; Your Website 2014</p>
         </div>
