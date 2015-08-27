@@ -18,7 +18,13 @@ html {
 }
 
 h1,
-h2,
+h2 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px; },
 h3,
 h4,
 h5,
