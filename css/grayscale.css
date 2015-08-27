@@ -320,7 +320,7 @@ a:focus {
     text-align: center;
     vertical-align: middle;
     font-size: 20px;
-    line-height: 45px;
+    /*line-height: 45px;*/
 }
 
 .btn:focus,
@@ -375,9 +375,9 @@ a:focus {
     background-color: #42dca3;
 } */
 
-/* ul.banner-social-buttons {
+ul.banner-social-buttons {
     margin-top: 0;
-} */
+}
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
