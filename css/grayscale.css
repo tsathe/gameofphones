@@ -330,9 +330,14 @@ a:focus {
     color: #E8E8E8;
     background-color: transparent;
 } */
+<<<<<<< HEAD
 
 
 /* .btn-social {
+=======
+/*
+.btn-social {
+>>>>>>> gh-pages
     display: inline-block;
     width: 75px;
     height: 75px;
@@ -396,7 +401,11 @@ a:focus {
     background-color: #42dca3;
 } */
 
+<<<<<<< HEAD
 ul.banner-social-buttons {
+=======
+ ul.banner-social-buttons {
+>>>>>>> gh-pages
     margin-top: 0;
 }
 
