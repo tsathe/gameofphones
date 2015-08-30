@@ -95,9 +95,22 @@
                         <h1 class="brand-heading">104STRONG</h1>
                         <p class="intro-text">SECOND YEAR SHOW 2016</p><br><br>
 
+                        <div class="clock" style="margin:2em;">
+                        <script type="text/javascript">
+
+                            var current = new Date();
+                            var eventDate = new Date("Feb 20, 2016");
+                            var diff = (eventDate.getTime() / 1000) - (current.getTime() / 1000);
+
+                            var clock = $('.clock').FlipClock(diff, {
+                                clockFace: 'DailyCounter',
+                                countdown: true
+                             });
+                        </script></div>
+                        <br><br><br>
 
                         <!-- Trigger the modal with a button -->
-                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Open Modal</button>
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Watch The Video</button>
 
                         <!-- Modal -->
                         <div id="myModal" class="modal fade" role="dialog">
@@ -124,20 +137,7 @@
                           </div>
                         </div>
 
-
-                        <div class="clock" style="margin:2em;">
-                        <script type="text/javascript">
-
-                            var current = new Date();
-                            var eventDate = new Date("Feb 20, 2016");
-                            var diff = (eventDate.getTime() / 1000) - (current.getTime() / 1000);
-
-                            var clock = $('.clock').FlipClock(diff, {
-                                clockFace: 'DailyCounter',
-                                countdown: true
-                             });
-                        </script></div>
-                        <br><br><br><br><br><br>
+                        <br><br><br>
 
                         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                         <ul class="list-inline text-center">
