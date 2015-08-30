@@ -17,6 +17,9 @@
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/boostrap-lightbox.css" rel="stylesheet">
+    <link href="bootstrap-modal-carousel.css" rel="stylesheet" />
+
+    <script src="bootstrap-modal-carousel.js"/></script/>
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -68,7 +71,7 @@
                     </li>
                     <li>
                         <!-- <a class="page-scroll" href="#download">Contact</a> -->
-                        <a class="page-scroll" href="#demoLightbox" data-toggle="lightbox">Contact</a>
+                        <a class="page-scroll" href="#video" data-toggle="modal-fullscreen">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -77,9 +80,13 @@
         <!-- /.container -->
     </nav>
 
+    <button type="button" class="btn" data-toggle="modal" data-target="#myModal" data-local="#myCarousel">Demo</button>
 
+    <link href="modal-fullscreen.css" rel="stylesheet" />
 
-    <div class="modal fade modal-fullscreen force-fullscreen" id="video" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <button type="button" class="btn" data-toggle="modal" data-target="#myModal">Demo</button>
+
+    <div class="modal fade modal-fullscreen force-fullscreen" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
