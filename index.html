@@ -276,8 +276,8 @@
     <script>
       jQuery('#myModal').on('hidden.bs.modal', function (e) {
       // do something...
-      $('video2').get(0).stopVideo();
       jQuery('#myModal iframe').attr("src", jQuery("#myModal  iframe").attr("src"));
+      $('video1').get(0).stopVideo();
     });
     </script>
 
