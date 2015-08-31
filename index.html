@@ -264,17 +264,20 @@
     <script src="js/grayscale.js"></script>
 
     <script type="text/javascript">
+        var video = $("#video1").attr("src");
+        $("#video1").attr("src","");
+        $("#video1").attr("src",video);
+    </script>
+
+    <script type="text/javascript">
     $(document).ready(function(){
       jQuery(".modal-backdrop, #myModal .close, #myModal .btn").live("click", function() {
-          $('#video1').get(0).stopVideo();
           jQuery("#myModal iframe").attr("src", jQuery("#myModal iframe").attr("src"));
-
-          var video = $("#video1").attr("src");
-          $("#video1").attr("src","");
-          $("#video1").attr("src",video);
-  });
-    });
+        });
+          });
     </script>
+
+
 
 
 
