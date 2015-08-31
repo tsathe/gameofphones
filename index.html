@@ -124,7 +124,7 @@
                               </div>
                               <div class="modal-body">
                                 <div class="embed-responsive embed-responsive-16by9" id = "video1">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vTnhHrhZbh4?autoplay=1&enablejsapi=1" allowfullscreen></iframe>
+                                    <iframe class="embed-responsive-item" id="video2" src="https://www.youtube.com/embed/vTnhHrhZbh4?autoplay=1&enablejsapi=1" allowfullscreen></iframe>
                                 </div>
                                 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/eqmRgex_GP4" frameborder="0" allowfullscreen></iframe>-->
                                 <!-- <p>Some text in the modal.</p> -->
@@ -272,9 +272,11 @@
     </script>
 
     //Stop Video
+
     <script>
-    jQuery('#myModal').on('hidden.bs.modal', function (e) {
+      jQuery('#myModal').on('hidden.bs.modal', function (e) {
       // do something...
+      $('video2').get(0).stopVideo();
       jQuery('#myModal iframe').attr("src", jQuery("#myModal  iframe").attr("src"));
     });
     </script>
