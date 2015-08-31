@@ -277,7 +277,10 @@
       jQuery('#myModal').on('hidden.bs.modal', function (e) {
       // do something...
       jQuery('#myModal iframe').attr("src", "");
-
+    });
+      jQuery('#myModal').on('show.bs.modal', function (e) {
+      jQuery('#myModal iframe').attr("src", "https://www.youtube.com/embed/vTnhHrhZbh4?autoplay=1&enablejsapi=1");
+    });
       /* var video = $("#video1").attr("src");
       $("#video1").attr("src","");
       $("#video1").attr("src",video); */
