@@ -277,6 +277,9 @@
       jQuery('#myModal').on('hidden.bs.modal', function (e) {
       // do something...
       jQuery('#myModal iframe').attr("src", "https://www.youtube.com/embed/jCzxeM73eac");
+      var video = $("#video1").attr("src");
+      $("#video1").attr("src","");
+      /* $("#video1").attr("src",video); */
     });
     </script>
 
