@@ -268,9 +268,10 @@
       jQuery(".modal-backdrop, #myModal .close, #myModal .btn").live("click", function() {
           $('#video1').get(0).stopVideo();
           jQuery("#myModal iframe").attr("src", jQuery("#myModal iframe").attr("src"));
+
           var video = $("#video1").attr("src");
-          $("#playerid").attr("src","");
-          $("#playerid").attr("src",video);
+          $("#video1").attr("src","");
+          $("#video1").attr("src",video);
   });
     });
     </script>
