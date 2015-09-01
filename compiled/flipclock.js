@@ -2120,7 +2120,7 @@ var FlipClock;
 
 			$(this.createDivider('Minutes')).insertBefore(this.lists[this.lists.length - 4 + offset].$el);
 			$(this.createDivider('Hours')).insertBefore(this.lists[this.lists.length - 6 + offset].$el);
-			$(this.createDivider('Days', true)).insertBefore(this.lists[0].$el);
+			$(this.createDivider('Days', true)).insertBefore(this.lists[0 - offset].$el);
 
 			this.base();
 		},
