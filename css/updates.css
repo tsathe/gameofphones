@@ -1,3 +1,9 @@
+
+
+.no-padding {
+    padding: 0;
+}
+
 .portfolio-box {
     display: block;
     position: relative;
