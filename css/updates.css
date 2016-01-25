@@ -88,3 +88,11 @@
   border: 1px solid #046b99;
   color: white;
 }
+
+.btn-xlarge,
+.btn-group-xlarge > .btn {
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
