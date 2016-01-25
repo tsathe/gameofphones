@@ -77,7 +77,15 @@
     background: url(../img/bg_history.jpg) no-repeat center center scroll;
 }
 
-.btn {
+
+.btn2 {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
     background-color: #02bfe7;
     color: #fff;
 }
