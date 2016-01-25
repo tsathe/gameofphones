@@ -79,4 +79,12 @@
 
 .btn {
     background-color: #02bfe7;
+    color: #fff;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #00a6d2;
+  border: 1px solid #046b99;
+  color: white;
 }
