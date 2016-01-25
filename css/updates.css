@@ -76,3 +76,7 @@
 .download-section {
     background: url(../img/bg_history.jpg) no-repeat center center scroll;
 }
+
+.btn {
+    color: #02bfe7;
+}
