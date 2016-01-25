@@ -68,3 +68,7 @@
         font-size: 22px;
     }
 }
+
+.intro {
+    background: url(../img/bg_theater.jpg) no-repeat bottom center scroll;
+}
