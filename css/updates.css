@@ -72,3 +72,7 @@
 .intro {
     background: url(../img/bg_theater.jpg) no-repeat bottom center scroll;
 }
+
+.download-section {
+    background: url(../img/bg_history.jpg) no-repeat center center scroll;
+}
