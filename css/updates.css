@@ -90,8 +90,8 @@
     color: #fff;
 }
 
-.btn:hover,
-.btn:focus {
+.btn2:hover,
+.btn2:focus {
   background-color: #00a6d2;
   border: 1px solid #046b99;
   color: white;
