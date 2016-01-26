@@ -77,6 +77,19 @@
     background: url(../img/bg_history.jpg) no-repeat center center scroll;
 }
 
+.btn-default {
+    border: 1px solid #02bfe7;
+    color: #02bfe7;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #02bfe7;
+    outline: 0;
+    color: #fff;
+    background-color: #02bfe7;
+}
 
 .btn2 {
     border-radius: 0;
@@ -102,5 +115,5 @@
   padding: 16px 24px;
   font-size: 24px;
   line-height: 1.3333333;
-  border-radius: 6px;
+  border-radius: 0px;
 }
